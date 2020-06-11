@@ -1,0 +1,15 @@
+SELECT * FROM `imported_excel_data` WHERE `doi` LIKE '2019-03-11' AND `roc` LIKE 'RoC - Vijayawada' ORDER BY `id` ASC
+
+SELECT DISTINCT `activity_description` FROM `imported_excel_data` WHERE `doi` LIKE '2019-03-11' AND `roc` LIKE 'RoC - Vijayawada'
+
+
+
+SELECT DISTINCT `category` FROM `imported_excel_data` WHERE `doi` LIKE '2019-03-11' AND `roc` LIKE 'RoC - Vijayawada'WHERE `category` LIKE Manufacture of food products and beverages;
+
+
+SELECT DISTINCT `category` FROM `imported_excel_data` WHERE `doi` LIKE '2019-03-11' AND `roc` LIKE 'RoC - Vijayawada' AND `activity_description` LIKE "Manufacture of food products and beverages";
+
+SELECT * FROM `imported_excel_data` WHERE `doi` = '2019-04-25' AND `state` = 'Maharashtra' AND `activity_description` = 'Activities Agriculture Hunting and related Service activities'
+
+
+SELECT * FROM `imported_excel_data` WHERE `doi` = '2019-04-25' AND `state` = 'Maharashtra' AND `activity_description` = 'Manufacture of food products and beverages'     
